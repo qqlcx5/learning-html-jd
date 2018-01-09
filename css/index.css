@@ -1,0 +1,178 @@
+@charset "UTF-8";
+.banner604{
+    position: relative;
+}
+.banner604 a{
+    width: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 604px;
+    background: url(../images/banner.jpg) no-repeat top center;
+}
+.main{
+    position: relative;
+}
+.slider{
+    width: 730px;
+    height: 453px;
+    background-color: pink;
+    margin: 12px 0 0 220px;
+    float: left;
+    position: relative;
+}
+.circle{
+    position: absolute;
+    bottom:8px;
+    left:50%;
+    margin-left:-66px;
+}
+.circle li{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #3e3e3e;
+    float: left;
+    text-align: center;
+    line-height: 18px;
+    color: #ffffff;
+    margin: 0 2px;
+    cursor: pointer;
+}
+.circle li.current{
+    background-color: #b61b1f;
+
+}
+.arrow-l,.arrow-r{
+    position: absolute;
+    width: 28px;
+    height: 62px;
+    top: 50%;
+    margin-top:-31px;
+    color: #ffffff;
+    font: 500 18px/62px "宋体";
+    text-align: center;
+    background: rgba(0,0,0,.2);
+}
+.arrow-l{
+    left: 0;
+}
+.arrow-r{
+    right: 0;
+}
+.arrow-l:hover,.arrow-r:hover{
+    background: rgba(0,0,0,.4);
+    color: #ffffff;
+}
+.news{
+    width: 248px;
+    height: 451px;
+    border: 1px solid #e4e4e4;
+    float: right;
+    margin-top: 12px;
+}
+.jd-news{
+    height: 200px;
+    border-bottom: 1px dashed #e4e4e4;
+
+}
+.jd-news .dt,.lifeservi .dt{
+    height: 43px;
+    line-height: 43px;
+    border-bottom: 1px dashed #e8e8e7;
+}
+.jd-news .dt h3,
+.lifeservi .dt h3{
+    float: left;
+    font:14px/43px microsoft yahei;
+    color: #666666;
+    padding-left: 15px;
+}
+.jd-news .dt a{
+    float: right;
+    font:14px/43px microsoft yahei;
+    color: #666666;
+    padding-right: 15px;
+}
+.jd-news .dd ul{
+    line-height: 28px;
+}
+.jd-news .dd li span{
+    font-weight: 700;
+    margin-right: 5px;
+}
+.lifeservi{
+    height: 251px;
+    overflow: hidden;
+    width: 248px;
+}
+.lifeservi ul{
+    width: 252px;
+}
+.lifeservi ul li{
+    width: 62px;
+    height: 70px;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+    float: left;
+    margin-left: -1px;
+
+}
+.lifeservi ul li a{
+    display: block;
+    height: 70px;
+    text-align: center;
+    padding-top: 44px;
+    position: relative;
+}
+.lifeservi li i{
+    position: absolute;
+    top: 12px;
+    left: 18px;
+    width: 25px;
+    height: 25px;
+    background: url(../images/icon_lifeserv.png) no-repeat right top;
+}
+.lifeservi-icon2 a i{
+    background: url(../images/icon_lifeserv.png) no-repeat right -25px;
+}.lifeservi-icon3 a i{
+    background: url(../images/icon_lifeserv.png) no-repeat right -50px;
+}.lifeservi-icon4 a i{
+    background: url(../images/icon_lifeserv.png) no-repeat right -75px;
+}.lifeservi-icon5 a i{
+    background: url(../images/icon_lifeserv.png) no-repeat right -100px;
+}.lifeservi-icon6 a i{
+    background: url(../images/icon_lifeserv.png) no-repeat right -125px;
+}.lifeservi-icon7 a i{
+    background: url(../images/icon_lifeserv.png) no-repeat right -150px;
+}.lifeservi-icon8 a i{
+    background: url(../images/icon_lifeserv.png) no-repeat right -175px;
+}.lifeservi-icon9 a i{
+    background: url(../images/icon_lifeserv.png) no-repeat right -200px;
+}.lifeservi-icon10 a i{
+    background: url(../images/icon_lifeserv.png) no-repeat right -225px;
+}.lifeservi-icon11 a i{
+    background: url(../images/icon_lifeserv.png) no-repeat right -250px;
+}.lifeservi-icon12 a i{
+    background: url(../images/icon_lifeserv.png) no-repeat right -275px;
+}.lifeservi-icon13 a i {
+    background: url(../images/icon_lifeserv.png) no-repeat right -300px;
+}
+.todays{
+    position: relative;
+}
+.night{
+    margin: 10px 0 28px 0;
+}
+.night-r{
+    width: 1000px;
+    height: 160px;
+    float: right;
+}
+.night-r ul{
+    width:500%;
+}
+.night-r li{
+    float: left;
+    margin-right: 1px;
+}
